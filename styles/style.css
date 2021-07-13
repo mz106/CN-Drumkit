@@ -7,6 +7,10 @@
     /* border: 1px solid black; */
 }
 
+body {
+    background-color: #403d39;
+}
+
 .container--flex {
     display: flex;
 }
@@ -17,6 +21,10 @@
     margin: 20vh auto;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
 }
 
 .container__keys--medium {
@@ -30,7 +38,8 @@
     width: 5%;
     flex-direction: column;
     justify-content: center;
-    opacity: 1;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container__key--small:hover {
