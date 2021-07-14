@@ -51,7 +51,7 @@ const keyPlay = () => {
         for (let j = 0; j < soundArr.length; j++) {
             if (i !== j) {
                 continue
-            } if (i === j) {
+            } else if (i === j) {
                 paraKey[i].addEventListener('click', () => {
                     soundArr[j].play();
                 
